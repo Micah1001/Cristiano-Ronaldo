@@ -11,11 +11,24 @@
 /* Home Page */
 .home {
   line-height: 1.6;
-  background-image: url('Media/Background5.jpg');
+  background-image: url('Media/background5.png');
   background-size: cover; 
   background-position: center; 
   background-attachment: fixed; 
   margin: 20px;
+}
+
+.hero {
+  background-image: url('Media/');
+  background-size: cover;
+  background-position: center;
+  font-family: cursive;
+  color: #0099cc;
+  text-align: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 label {
