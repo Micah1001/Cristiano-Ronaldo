@@ -10,7 +10,7 @@
 
 header {
   text-align: center;
-  background-image: url('https://micah1001.github.io/Cristiano-Ronaldo.github.io/Media/Backgrounds/Header-Background.jpeg');
+  background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/Header-Background.jpeg');
   background-size:contain;
   width: 100%;
   background-position: center;
@@ -123,6 +123,14 @@ footer {
   align-items: center;
   margin: auto;
   height: 550px;
+}
+
+.slideshow-container .fade {
+  display: none; 
+}
+
+.slideshow-container .fade.active {
+  display: block;
 }
 
 .mySlides {
@@ -293,7 +301,7 @@ footer {
 .home {
   line-height: 1.4;
   background-color: #000000;
-  background-image: url('https://micah1001.github.io/Cristiano-Ronaldo.github.io/Media/Backgrounds/background5.png');
+  background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/background5.png');
   background-size: cover; 
   background-position: center; 
   background-attachment: fixed; 
@@ -345,7 +353,7 @@ footer {
 .club-career {
   line-height: 1.5;
   background-color: #000000;
-  background-image: url('https://micah1001.github.io/Cristiano-Ronaldo.github.io/Media/Backgrounds/wp11954242-champions-league-stadium-wallpapers.jpg');
+  background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/wp11954242-champions-league-stadium-wallpapers.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -375,7 +383,7 @@ footer {
 .international-career {
   line-height: 1.5;
   background-color: #000000;
-  background-image: url('https://micah1001.github.io/Cristiano-Ronaldo.github.io/Media/Backgrounds/uwp4685637.png');
+  background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/uwp4685637.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
