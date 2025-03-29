@@ -5,9 +5,15 @@
   box-sizing: border-box;
   color: white;
   font-size: 16px;
+}
+
+html{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* =========================
+   Header and Footer Styling
+   ========================= */
 header {
   text-align: center;
   background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/Header-Background.jpeg');
@@ -21,11 +27,6 @@ header {
   box-shadow: 0 0 15px gold;
 }
 
-body {
-  width: 100%;
-  overflow-x: hidden;
-}
-
 .title {
   font-size: 3rem;
   font-weight: bold;
@@ -34,10 +35,6 @@ body {
   padding: 30px;
   text-align: center;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-header, main, aside, footer {
-  margin-bottom: 20px;
 }
 
 nav ul {
@@ -49,6 +46,7 @@ nav ul {
   background: black;
   margin: 0;
 }
+
 
 nav ul li a {
   color: #fff;
@@ -77,10 +75,6 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-section {
-  margin-bottom: 20px;
-}
-
 footer {
   text-align: center;
   background-color: #000000;
@@ -89,12 +83,50 @@ footer {
   width: 100%;
 }
 
+header, main, footer {
+  margin-bottom: 20px;
+}
+
+/* =========================
+   Body Styling
+   ========================= */
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 1rem;
+}
+
+.special-h1{
+  font-size: 30px; 
+  color: gold; 
+  text-decoration: underline;
+}
+
+.special-h2{
+  font-size: 25px; 
+  color: gold;
+}
+
+.special-h3{
+  font-size: 20px; 
+  color: gold;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* =========================
+   Image Styling
+   ========================= */
+
 .img-1{
   display: block; 
   margin: 0 auto;
   border-radius: 20px;
-  width: 400px; 
-  min-height: 300px;
+  min-width: 200px; 
+  width: 100%;
+  min-height: 350px;
   max-height: 500px;
 }
 
@@ -102,17 +134,21 @@ footer {
   display: block; 
   margin: 0 auto;
   border-radius: 20px;
-  width: 500px; 
-  min-height: 300px;
-  max-height: 400px;
+  min-width: 300px; 
+  width: 100%;
+  min-height: 350px;
+  max-height: 500px;
 }
 
 .img-1:hover, .img-2:hover{
   transform: scale(1.07);
   box-shadow: gold 0px 0px 15px;
-  transition: 0.5s;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+/* =========================
+   Slideshow Styling
+   ========================= */
 .slideshow-container {
   padding-top: 15px;
   padding-bottom: 30px;
@@ -212,6 +248,9 @@ footer {
   to {opacity: 1}
 }
 
+/* =========================
+   Preloader Styling
+   ========================= */
 #preloader {
   position: fixed;
   top: 0;
@@ -238,33 +277,64 @@ footer {
   pointer-events: none;
 }
 
-/* Responsive Navigation */
+/* =========================
+   Responsive Navigation
+   ========================= */
 @media (max-width: 768px) {
+  .special-h1{
+    font-size: 25px; 
+    color: gold; 
+    text-decoration: underline;
+  }
+
+  .special-h2{
+    font-size: 20px; 
+    color: gold;
+  }
+
   .img-1{
     width: 100%;
     min-height: 300px;
     max-height: 350px;
   }
+
   .img-2{
     width: 100%;
     min-height: 275px;
     max-height: 350px;
   }
+
   .img-1:hover, .img-2:hover{
     transform: scale(1.03);
   }
+
   .slideshow-container {
     height: 400px;
   }
+
+  .header{
+    height: fit-content;
+  }
+
+  .title{
+    font-size: 35px;
+    padding: 10px;
+  }
+
   body{
     padding: 20px;
+    overflow-x: hidden;
+    width: 100%;
   }
+
   .fas.fa-bars{
-    font-size: 3rem;
+    font-size: 2rem;
   }
+
   .fas.fa-bars:hover{
     color: gold;
   }
+
   .menu-toggle {
     display: block;
     background: none;
@@ -274,7 +344,9 @@ footer {
     margin: 0 auto;
     cursor: pointer;
   }
+
   nav ul {
+    gap: 1px;
     display: none;
     flex-direction: column;
     width: 100%;
@@ -293,11 +365,12 @@ footer {
     width: 50%;
     text-align: center;
   }
-
 }
 
 
-/* _____________Home Page___________ */
+/* =========================
+   Home Page Styling
+   ========================= */
 .home {
   line-height: 1.4;
   background-color: #000000;
@@ -333,13 +406,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  header {
-    width: 100%;
+  .main-pic {
+    width: 90%;
+    height: auto;
   }
 
   .five-champions-leagues, .calma, .point-to-ground, .leap, .main-pic{
@@ -349,7 +418,9 @@ footer {
 }
 
 
-/* _____________Club Career Page___________ */
+/* =========================
+   Club Career Page Styling
+   ========================= */
 .club-career {
   line-height: 1.5;
   background-color: #000000;
@@ -379,7 +450,9 @@ footer {
 
 }
 
-/* _____________International Career Page___________ */
+/* =========================
+   International Career Page Styling
+   ========================= */
 .international-career {
   line-height: 1.5;
   background-color: #000000;
@@ -391,7 +464,7 @@ footer {
   scroll-behavior: smooth;
 }
 
-.portugese-icon {
+.portuguese-icon {
   border: red 5px solid;
   border-radius: 10px;
   box-shadow: red 0px 0px 25px;
@@ -399,13 +472,25 @@ footer {
   align-content: center;
 }
 
-.portugese-icon p {
+.portuguese-icon p {
   padding: 5px;
   text-align: justify;
-  color: #ffffff;
+  color: goldenrod;
 }
 
 @media (max-width: 768px) {
  
 
 }
+
+/* =========================
+   Stats and Highlights Page Styling
+   ========================= */
+
+
+
+
+
+/* =========================
+   Contact Page Styling
+   ========================= */

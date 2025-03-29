@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset ="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cristiano Ronaldo dos Santos Aveiro's Football Career</title>
-    <link rel="stylesheet" href="Styles\Ronaldo.css">
-    <script defer src="Scripts/scripts.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset ="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Cristiano Ronaldo's football career, from his early life to his legendary achievements.">
+  <meta property="og:title" content="Cristiano Ronaldo's Football Career">
+  <meta property="og:image" content="Media/Backgrounds/cr7-official-seeklogo.png">
+  <title>Cristiano Ronaldo dos Santos Aveiro's Football Career</title>
+  <link rel="stylesheet" href="Styles\Ronaldo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script defer src="Scripts/scripts.js"></script>
 </head>
 <body class="club-career">
   <header>
@@ -25,14 +28,14 @@
       </ul>
     </nav>
   </header>
+  <div id="preloader">
+    <img src="Media/Backgrounds/preloader.gif" alt="Loading...">
+  </div>
   <main> 
-    <div id="preloader">
-      <img src="Media/Backgrounds/preloader.gif" alt="Loading...">
-    </div>
     <section class="club-career">
-      <h1 style="font-size: 30px; color: gold; text-decoration: underline;">What Was His Club Career Like?</h1>
+      <h1 class="special-h1">What Was His Club Career Like?</h1>
       <section class="early-life">
-        <h2 style="font-size: 25px; color: gold;">Early Life</h2>
+        <h2 class="special-h2">Early Life</h2>
         <br>
         <div class="slideshow-container">
           <div class="mySlides1 fade">
@@ -51,8 +54,8 @@
             <div class="numbertext">4 / 4</div>              
             <img class="img-1" src="Media/Early-Life/Child.jpg" alt="Cristiano Ronaldo's Childhood">
           </div>
-          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+          <a class="prev" onclick="plusSlides(-1, 0)" aria-label="Previous Slide">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)" aria-label="Next Slide">&#10095;</a>
         </div>
         <div class="dots-container-0" style="text-align:center">
           <span class="dot" onclick="currentSlide(1, 0)"></span>
@@ -91,8 +94,8 @@
             <div class="numbertext">4 / 4</div>
             <img class="img-1" src="Media/Early-Life/924718eff0463b3d9c964b63060afc39.jpg" alt="Cristiano Ronaldo's Childhood">
           </div>
-          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+          <a class="prev" onclick="plusSlides(-1, 1)" aria-label="Previous Slide">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)" aria-label="Next Slide">&#10095;</a>
         </div>
         <div class="dots-container-1" style="text-align:center">
           <span class="dot" onclick="currentSlide(1, 1)"></span>
@@ -116,7 +119,7 @@
       </section>
       <br>
       <section class="the-big-leap">
-        <h2 style="font-size: 25px; color: gold;">1st Big Move</h2><br>
+        <h2 class="special-h2">1st Big Move</h2><br>
         <div class="slideshow-container">
           <div class="mySlides3 fade">
             <div class="numbertext">1 / 4</div>
@@ -230,7 +233,7 @@
       </section>
       <br>
       <section class="the-madrid-icon">
-        <h2 style="font-size: 25px; color: gold;">One of the World's Best</h2>
+        <h2 class="special-h2">One of the World's Best</h2>
         <br>
         <div class="slideshow-container">
           <div class="mySlides5 fade">
@@ -347,7 +350,7 @@
       </section>
       <br>
       <section class="a-new-challenge">
-        <h2 style="font-size: 25px; color: gold;">A New Challenge</h2>
+        <h2 class="special-h2">A New Challenge</h2>
         <div class="slideshow-container">
           <div class="mySlides7 fade">
             <div class="numbertext">1 / 4</div>
@@ -446,7 +449,7 @@
       </section>
       <br>
       <section class="challenging-homecoming">
-        <h2 style="font-size: 25px; color: gold;">Challenging Homecoming</h2>
+        <h2 class="special-h2">Challenging Homecoming</h2>
         <div class="slideshow-container">
           <div class="mySlides9 fade">
             <div class="numbertext">1 / 4</div>
@@ -551,7 +554,7 @@
       </section>
       <br>
       <section class="aint-done-yet">
-        <h2 style="font-size: 25px; color: gold;">Ain't Done Yet</h2>
+        <h2 class="special-h2">Ain't Done Yet</h2>
         <div class="slideshow-container">
           <div class="mySlides11 fade">
             <div class="numbertext">1 / 4</div>
@@ -683,6 +686,7 @@
             their combined legacy has elevated the sport to new levels of greatness. Both have set benchmarks so high that the question may never truly be settled, but their rivalry will forever define the golden era of football.
           </strong>
         </p>
+        <br>
       </section>
     </section>
   </main>
