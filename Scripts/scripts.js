@@ -67,3 +67,7 @@ function showSlides(n, no) {
 function currentSlide(n, no) {
     showSlides(slideIndex[no] = n, no);
 }
+
+const markdownContent = document.getElementById('markdown-content').innerText;
+    const htmlContent = marked(markdownContent);
+    document.getElementById('markdown-content').innerHTML = htmlContent;
