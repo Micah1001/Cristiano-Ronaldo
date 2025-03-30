@@ -1,0 +1,41 @@
+head:
+  title: "Cristiano Ronaldo's Football Career"
+  stylesheets:
+    - "faq.css"
+
+body:
+  class: "faq"
+  header:
+    h1:
+      class: "title"
+      text: "Cristiano Ronaldo's Football Career"
+    menu_toggle:
+      button:
+        class: "menu-toggle"
+        icon:
+          class: "fas fa-bars"
+    nav:
+      ul:
+        - link:
+            href: "index.html"
+            text: "Home"
+        - link:
+            href: "Ronaldo-About.html"
+            text: "Club Career"
+        - link:
+            href: "Ronaldo-About2.html"
+            text: "International Career"
+        - link:
+            href: "Ronaldo-About3.html"
+            text: "Stats"
+        - link:
+            href: "Ronaldo-Contact.html"
+            text: "Feedback"
+        - link:
+            href: "Ronaldo-FAQ.html"
+            text: "FAQ"
+  main:
+    h2: "Frequently Asked Questions"
+    faq_container_id: "faq-container"
+  scripts:
+    - "faq.js"

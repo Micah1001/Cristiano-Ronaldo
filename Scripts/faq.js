@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("faq.xml")
+  fetch("Ronaldo-FAQ.xml")
     .then(response => response.text())
     .then(data => {
       let parser = new DOMParser();
