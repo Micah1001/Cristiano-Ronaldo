@@ -5,9 +5,12 @@ menuToggle.addEventListener('click', () => {
 navMenu.classList.toggle('visible');
 });
 
-window.addEventListener('load', () => {
-const preloader = document.getElementById('preloader');
-preloader.classList.add('fade-out');
+window.addEventListener("load", function() {
+    const preloader = document.getElementById("preloader");
+    preloader.classList.add("fade-out"); 
+    setTimeout(() => {
+        preloader.style.display = "none";
+    }, 500);
 });
 
 let slideIndex = [1, 1, 1, 1, 
