@@ -486,7 +486,16 @@ section {
 /* =========================
    Stats and Highlights Page Styling
    ========================= */
-
+   .international-career {
+    line-height: 1.5;
+    background-color: #000000;
+    background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/wp11954263-champions-league-stadium-wallpapers');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    scroll-behavior: smooth;
+  }
 
 
 
