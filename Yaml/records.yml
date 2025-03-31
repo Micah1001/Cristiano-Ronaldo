@@ -1,0 +1,59 @@
+title: "Did You Know?"
+description: "Over his very long and successful career spanning three decades, Cristiano Ronaldo has broken multiple records, cementing his legacy as one of the greatest footballers of all time with unparalleled achievements in club and international football. Here are some of his recorded records."
+sections:
+  - title: "International Records"
+    image:
+      src: "Media/Home-Page/Real-Madrid-Love-GIF.gif"
+      alt: "Point to ground"
+      height: "400px"
+      width: "600px"
+    records:
+      - title: "Most International Goals"
+        description: "Ronaldo holds the record for the most goals scored in men's international football, with 135 goals for Portugal since his debut in 2003."
+      - title: "Most International Appearances"
+        description: "He has made the most appearances for Portugal, with 201 caps, and is also the most capped player in men's international football history."
+      - title: "Most Goals in FIFA World Cup Qualifiers"
+        description: "Ronaldo holds the record for the most goals scored in FIFA World Cup qualifiers, with 31 goals in 37 matches."
+      - title: "Most European Championships Appearances"
+        description: "Ronaldo became the first player to appear in six European Championships, further extending his record for international appearances."
+      - title: "Most Goals in European Championship History"
+        description: "Ronaldo has scored 14 goals in the UEFA European Championship, making him the tournament's all-time top scorer."
+
+  - title: "Club Records"
+    image:
+      src: "Media/Home-Page/218829.gif"
+      alt: "calma"
+    records:
+      - title: "Most Goals in UEFA Champions League"
+        description: "Ronaldo is the all-time leading scorer in the UEFA Champions League, with 140 goals in 183 appearances."
+      - title: "Most Goals in a Single UEFA Champions League Season"
+        description: "He set the record for the most goals in a single Champions League season, scoring 17 times during the 2013–14 campaign."
+      - title: "Madrid Dynasty"
+        description: "He was an integral part of a world-conquering Real Madrid team that dominated Europe from 2015 to 2018, winning three Champions League titles in a row."
+      - title: "Most UEFA Champions League Hat-Tricks"
+        description: "Ronaldo has scored the most hat-tricks in the history of the UEFA Champions League, with eight to his name."
+      - title: "Most UEFA Champions League Final Goals"
+        description: "Ronaldo has scored four goals in UEFA Champions League finals, including decisive goals in the 2008, 2014, and 2017 finals."
+      - title: "Most UEFA Champions League Titles"
+        description: "Ronaldo has won the UEFA Champions League five times, with four titles coming with Real Madrid and one with Manchester United."
+      - title: "Most UEFA Champions League Assists"
+        description: "Ronaldo has provided the most assists in the history of the UEFA Champions League, with 40 assists to his name."
+      - title: "Real Madrid's All-Time Top Scorer"
+        description: "During his tenure at Real Madrid, Ronaldo became the club's highest-ever scorer, amassing 450 goals in just 438 appearances."
+
+  - title: "Major Personal Milestones"
+    image:
+      src: "Media/Home-Page/wp11957168-cristiano-ronaldo-champions-league-wallpapers.jpg"
+      alt: "Fifth Champions League Title"
+    records:
+      - title: "First Active Footballer to Earn Over $1 Billion"
+        description: "Ronaldo became the first active footballer to surpass $1 billion in career earnings, highlighting his success both on and off the pitch."
+      - title: "Most Goals in Football History"
+        description: "As of February 2025, he has scored over 900 official senior career goals for club and country, making him the top goalscorer of all time."
+      - title: "The Highest Recorded Jump"
+        description: "While playing for Real Madrid against Manchester United during a UEFA Champions League match in 2013, Cristiano Ronaldo leaped an astounding 2.93 meters into the air to meet a cross and nod the ball confidently into the net."
+    additional_image:
+      src: "Media/Home-Page/Cristiano_Ronaldo_amazing_header_goal_vs_Manchester_United.gif"
+      alt: "2.93 meter jump"
+
+conclusion: "These are only some of the records that underscore Ronaldo's exceptional talent, relentless work ethic, and enduring impact on the world of football."
