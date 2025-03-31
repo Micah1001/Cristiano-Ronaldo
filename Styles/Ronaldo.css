@@ -349,6 +349,7 @@ aside{
     background-color: #717171;
   }
 
+
 /* =========================
    Preloader Styling
    ========================= */
@@ -388,9 +389,6 @@ aside{
   100% { transform: rotate(360deg); }
 }
 
-/* =========================
-   Responsive Navigation
-   ========================= */
 @media (max-width: 768px) {
   .special-h1{
     font-size: 25px; 
@@ -491,7 +489,7 @@ aside{
   background-attachment: fixed; 
   width: 100%;
   scroll-behavior: smooth;
-  padding: 20px;
+  padding: 30px;
 }
 
 .main-pic{
@@ -556,10 +554,6 @@ aside{
   color: #ffffff;
 }
 
-@media (max-width: 768px) {
- 
-
-}
 
 /* =========================
    International Career Page Styling
@@ -586,13 +580,10 @@ aside{
 .portuguese-icon p {
   padding: 5px;
   text-align: justify;
-  color: palegreen;
+  color: rgb(255, 194, 194);
+  text-decoration-color: #000000;
 }
 
-@media (max-width: 768px) {
- 
-
-}
 
 /* =========================
    Stats and Highlights Page Styling
@@ -605,147 +596,152 @@ aside{
     background-position: center;
     background-attachment: fixed;
     width: 100%;
+    min-height: 100%;
     scroll-behavior: smooth;
   }
 
+  .stats p {
+    color: red;
+    font-weight: bold;
+  }
+  
   .video {
-    align-self: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
   }
-
-/* =========================
-   Stats Styling
-   ========================= */
-.stats-table {
-  width: 100%;
-  max-width: 800px;
-  margin: 20px auto;
-  margin-top: 50px;
-  border-collapse: collapse;
-  font-size: 10px;
-  text-align: center;
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0px 0px 15px gold;
-}
-
-.stats-table thead {
-  background-color: gold;
-  color: black;
-  font-weight: bold;
-}
-
-.stats-table th,
-.stats-table td {
-  padding: 4px;
-  border: 1px solid gold;
-}
-
-.stats-table tbody tr:nth-child(even) {
-  background-color: rgba(255, 215, 0, 0.2);
-}
-
-.stats-table tbody tr:nth-child(odd) {
-  background-color: rgba(255, 215, 0, 0.1);
-}
-
-.stats-table tfoot {
-  background-color: gold;
-  color: black;
-  font-weight: bold;
-}
-
-.icons {
-  width: 20px; 
-  height: 20px; 
-  vertical-align: middle; 
-  margin-right: 5px; 
-}
-
-.icons:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease; 
-}
-
-th .icons {
-  cursor: pointer; 
-}
-
-.prev-page, .next-page {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 10px;
-  color: goldenrod;
-  font-weight: bold;
-  font-size: 50px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.prev-page {
-  left: 10px;
-}
-
-.next-page {
-  right: 10px;
-}
-
-.prev-page:hover, .next-page:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.numbertext {
-  color: white;
-  font-size: 14px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-.dot-pages {
-  cursor: pointer;
-  margin-top: 20px;
-  height: 30px;
-  width: 30px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot-pages:hover {
-  background-color: #717171;
-}
-
-/* Responsive Styling */
-@media (max-width: 768px) {
+  
+  .video iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+  
+  /* =========================
+     Stats Styling
+     ========================= */
   .stats-table {
-    font-size: 8px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px gold;
   }
-
-  .stats-table th, 
+  .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stats-table thead {
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .stats-table th,
   .stats-table td {
-    padding: 3px;
+    padding: 6px;
+    border: 1px solid gold;
   }
-
+  
+  .stats-table tbody tr:nth-child(even) {
+    background-color: rgba(255, 215, 0, 0.2);
+  }
+  
+  .stats-table tbody tr:nth-child(odd) {
+    background-color: rgba(255, 215, 0, 0.1);
+  }
+  
+  .stats-table tfoot {
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .icons {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .icons:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Navigation Buttons */
+  .prev-page, .next-page {
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 10px;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+  }
+  
   .prev-page {
-    left: -25px;
+    left: 10px;
   }
-
+  
   .next-page {
-    right: -25px;
+    right: 10px;
   }
-}
+  
+  .prev-page:hover, .next-page:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Pagination Dots */
+  .dot-pages {
+    cursor: pointer;
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot-pages:hover {
+    background-color: #717171;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .stats-table {
+      font-size: 10px;
+    }
+  
+    .stats-table th, 
+    .stats-table td {
+      padding: 4px;
+    }
+  
+    .prev-page, .next-page {
+      font-size: 30px;
+      padding: 5px;
+    }
+  }
 
    /* =========================
    End of Ronaldo.css

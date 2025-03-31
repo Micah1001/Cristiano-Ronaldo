@@ -1,13 +1,13 @@
-fetch('Yaml/records.yml')
+fetch('Yml/records.yml')
 .then(response => response.text())
 .then(data => {
     const records = jsyaml.load(data);
-    let output = `<h2 class="${records.class || ''}">${records.title}</h2><p>${records.description}</p><br>`;
+    let output = `<h2 class="${records.class || ''}">${records.title}</h2><br><p>${records.description}</p><br>`;
     
     records.sections.forEach(section => {
         output += `<h3 class="${section.class || ''}">${section.title}</h3>`;
         if (section.image) {
-            output += `<br><img class="${section.image.class || ''}" src="${section.image.src}" alt="${section.image.alt}"><br>`;
+            output += `<br><img class="${section.image.class || ''}" src="${section.image.src}" alt="${section.image.alt}"><br><br>`;
         }
         section.records.forEach(record => {
             output += `<p><b>${record.title}:</b> ${record.description}</p><br>`;
