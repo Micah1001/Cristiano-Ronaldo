@@ -14,7 +14,7 @@ html {
 header {
   text-align: center;
   background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/Header-Background.jpeg');
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   background-position: center;
   background-attachment: fixed;
