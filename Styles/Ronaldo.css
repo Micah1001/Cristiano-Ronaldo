@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  /* Removed global color rule to avoid unintended overrides */
   font-size: 16px;
 }
 
@@ -687,7 +687,6 @@ aside{
     transform: scale(1.1);
   }
   
-  /* Navigation Buttons */
   .prev-page, .next-page {
     cursor: pointer;
     position: fixed;
@@ -767,7 +766,7 @@ aside{
   }
 
   .contact-page main {
-    max-width: 90%;
+    min-width: 90%;
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -806,7 +805,7 @@ aside{
     width: 100%;
     padding: 10px;
     font-size: 14px;
-    border: 1px solid #ccc;
+    border: 1px solid goldenrod;
     border-radius: 5px;
     box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
   }
@@ -886,7 +885,6 @@ aside{
 
   .answer {
     display: none;
-    padding: 10px;
     background: rgba(255, 215, 0, 0.1);
     border-left: 3px solid goldenrod;
     color: #000;
