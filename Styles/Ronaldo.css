@@ -797,8 +797,9 @@ form button:active {
     line-height: 1.5;
     background-color: #000;
     background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/Ronaldo%20statue.jpg');
-    background-size: inherit;
-    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position:inherit;
     background-attachment: fixed;
   }
 }
