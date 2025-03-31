@@ -1,15 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <faqs>
   <faq>
-    <question>What is this website about?</question>
-    <answer>This website provides information on modern web development techniques.</answer>
+    <question>Where was Ronaldo born?</question>
+    <answer>Cristiano Ronaldo was born in Funchal, Madeira, Portugal, on February 5, 1985.</answer>
   </faq>
   <faq>
-    <question>How can I contact support?</question>
-    <answer>You can reach out to us via email at support@example.com.</answer>
+    <question>What is Ronaldo's full name?</question>
+    <answer>His full name is Cristiano Ronaldo dos Santos Aveiro.</answer>
   </faq>
   <faq>
-    <question>Do I need programming knowledge to use this site?</question>
-    <answer>No, we provide beginner-friendly guides to help you get started.</answer>
+    <question>How many Ballon d'Or awards has Ronaldo won?</question>
+    <answer>As of now, Cristiano Ronaldo has won 5 Ballon d'Or awards.</answer>
+  </faq>
+   <faq>
+    <question>What is Cristiano Ronaldo’s signature celebration?</question>
+    <answer>Ronaldo’s famous celebration is the “Siuuu” jump and spin, followed by shouting "Siuuu" as he lands.</answer>
+  </faq>
+   <faq>
+    <question>What number does Cristiano Ronaldo usually wear?</question>
+    <answer>Ronaldo is famously associated with the number 7, which has become part of his CR7 brand.</answer>
+  </faq>
+  <faq>
+    <question>Has Ronaldo won a FIFA World Cup?</question>
+    <answer>No, Ronaldo has not won a FIFA World Cup, but he has represented Portugal in multiple editions of the tournament.</answer>
+  </faq>
+  <faq>
+    <question>What is Ronaldo's most famous goal?</question>
+    <answer>One of Ronaldo's most famous goals is his bicycle kick against Juventus in the 2017-18 UEFA Champions League.</answer>
+  </faq>
+  <faq>
+    <question>How can I stay updated on Ronaldo's career?</question>
+    <answer>You can follow Ronaldo on his official social media accounts or check this website for updates.</answer>
+  </faq>
+  <faq>
+    <question>What are his socials?</question>
+    <answer>
+      Instagram: <a href="https://www.instagram.com/cristiano/" target="_blank">Cristiano Ronaldo Instagram</a><br/>
+      Facebook: <a href="https://www.facebook.com/Cristiano/" target="_blank">Cristiano Ronaldo Facebook</a><br/>
+      X (Twitter): <a href="https://twitter.com/Cristiano" target="_blank">Cristiano Ronaldo Twitter</a><br/>
+      YouTube: <a href="https://www.youtube.com/@cristiano" target="_blank">Cristiano Ronaldo YouTube</a>
+    </answer>
+  </faq>
+  <faq>
+    <question>What are my sources of information for this page?</question>
+    <answer>
+      Fotmob: <a href="https://www.fotmob.com/" target="_blank">Fotmob</a><br/>
+      Football Database: <a href="https://www.footballdatabase.eu/en/" target="_blank">Football Database</a><br/>
+      Transfermarkt: <a href="https://www.transfermarkt.com/" target="_blank">Transfermarkt</a><br/>
+      Wikipedia: <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank">Wikipedia</a><br/>
+      Official Website: <a href="https://www.cristianoronaldo.com/" target="_blank">Cristiano Ronaldo Official</a><br/>
+      Biography: <a href="https://www.biography.com/athletes/cristiano-ronaldo" target="_blank">Biography.com</a><br/>
+      Spyscape: <a href="https://spyscape.com/article/cristiano-ronaldo-from-poverty-to-family-and-football-superstardom" target="_blank">Spyscape</a><br/>
+      Britannica: <a href="https://www.britannica.com/biography/Cristiano-Ronaldo" target="_blank">Britannica</a>
+    </answer>
   </faq>
 </faqs>

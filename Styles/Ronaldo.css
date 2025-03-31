@@ -26,6 +26,7 @@ header {
   background-position: center;
   background-attachment: fixed;
   color: #ffffff;
+  margin: auto;
   transition: box-shadow 0.3s ease;
   border-radius: 10px;
   box-shadow: 0 0 15px gold;
@@ -462,6 +463,8 @@ aside{
     align-items: center;
     transform: translateY(-100%); 
     opacity: 0; 
+    background-color: black;
+    padding: 10px 0;
   }
 
   nav ul.visible {
@@ -489,7 +492,7 @@ aside{
   background-attachment: fixed; 
   width: 100%;
   scroll-behavior: smooth;
-  padding: 30px;
+  padding: 15px;
 }
 
 .main-pic{
@@ -539,6 +542,7 @@ aside{
   background-attachment: fixed;
   width: 100%;
   scroll-behavior: smooth;
+  padding: 15px;
 }
 
 .early-life, .the-big-leap, .the-madrid-icon, .a-new-challenge, .challenging-homecoming, .aint-done-yet{
@@ -567,6 +571,7 @@ aside{
   background-attachment: fixed;
   width: 100%;
   scroll-behavior: smooth;
+  padding: 15px;
 }
 
 .portuguese-icon {
@@ -598,6 +603,7 @@ aside{
     width: 100%;
     min-height: 100%;
     scroll-behavior: smooth;
+    padding: 15px;
   }
 
   .stats p {
@@ -757,6 +763,108 @@ aside{
     width: 100%;
     min-height: 100%;
     scroll-behavior: smooth;
+    padding: 15px;
+  }
+
+  .contact-page main {
+    max-width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: black;
+  }
+  
+  .contact-page h2, .contact-page h3 {
+    text-align: center;
+    color: gold;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .contact-page p {
+    text-align: center;
+    font-size: 16px;
+    color: gold;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form label {
+    font-size: 14px;
+    color: gold;
+    font-weight: bold;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input:focus, form textarea:focus {
+    border-color: goldenrod;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(218, 165, 32, 0.5);
+  }
+  
+  form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  form button {
+    background-color: goldenrod;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #d4a017;
+  }
+  
+  form button:active {
+    background-color: #b8860b;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-page main {
+      padding: 15px;
+    }
+    
+    .contact-page h2, .contact-page h3 {
+      font-size: 18px;
+    }
+  
+    .contact-page p {
+      font-size: 14px;
+    }
+  
+    form input, form textarea {
+      font-size: 12px;
+      padding: 8px;
+    }
+    
+    form button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
   }
 
 
@@ -773,6 +881,39 @@ aside{
     width: 100%;
     min-height: 100%;
     scroll-behavior: smooth;
+    padding: 15px;
+  }
+
+  .answer {
+    display: none;
+    padding: 10px;
+    background: rgba(255, 215, 0, 0.1);
+    border-left: 3px solid goldenrod;
+    color: #000;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out, padding 0.3s ease-out;
+    padding: 0 15px;
+  }
+
+  .answer.active {
+    display: block;
+    opacity: 1;
+    max-height: 300px; 
+    padding: 10px 15px;
+  }
+
+  .question {
+    cursor: pointer;
+    font-weight: bold;
+    color: red;
+    padding: 10px;
+    border-bottom: 1px solid goldenrod;
+  }
+  
+  .question:hover {
+    background-color: rgba(255, 215, 0, 0.2);
   }
 
 
