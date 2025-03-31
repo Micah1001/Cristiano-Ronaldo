@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
           if (answerDiv.classList.contains("active")) {
             answerDiv.classList.remove("active");
           } else {
-            document.querySelectorAll(".answer").forEach(ans => ans.classList.remove("active")); // Close others
+            document.querySelectorAll(".answer").forEach(ans => ans.classList.remove("active"));
             answerDiv.classList.add("active");
           }
         });
