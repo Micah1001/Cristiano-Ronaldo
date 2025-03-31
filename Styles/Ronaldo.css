@@ -753,8 +753,8 @@ form button:active {
 .faq-page {
   line-height: 1.5;
     background-color: #000;
-    background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/fall-back-image-9-16-1080x1920.png');
-    background-size:100% 100%;
+    background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/Screenshot 2025-03-04 174357.png');
+    background-size:cover;
     background-position:center;
     background-attachment: fixed;
   width: 100%;
@@ -769,7 +769,7 @@ form button:active {
   display: none;
   background: rgba(255,215,0,.1);
   border-left: 3px solid #daa520;
-  color: #000;
+  color: #ffffff;
   opacity: 0;
   max-height: 0;
   overflow: hidden;
