@@ -743,6 +743,39 @@ aside{
     }
   }
 
+
+   /* =========================
+   Contact Page Styling
+   ========================= */
+   .contact-page {
+    line-height: 1.5;
+    background-color: #000000;
+    background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/fall-back-image-9-16-1080x1920.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    scroll-behavior: smooth;
+  }
+
+
+   /* =========================
+   FAQ Page Styling
+   ========================= */
+   .faq-page {
+    line-height: 1.5;
+    background-color: #000000;
+    background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/Ronaldo%20statue.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    scroll-behavior: smooth;
+  }
+
+
    /* =========================
    End of Ronaldo.css
    ========================= */
