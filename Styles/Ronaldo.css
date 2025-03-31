@@ -792,3 +792,13 @@ form button:active {
 .question:hover {
   background-color: rgba(255,215,0,.2)
 }
+@media (max-width:768px) {
+  .faq-page {
+    line-height: 1.5;
+    background-color: #000;
+    background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/Ronaldo%20statue.jpg');
+    background-size: inherit;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
