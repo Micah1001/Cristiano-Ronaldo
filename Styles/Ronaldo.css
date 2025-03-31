@@ -42,6 +42,22 @@ header {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+footer {
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+header, main, footer {
+  margin-bottom: 20px;
+}
+
+
+/* =========================
+   Navigation Styling
+   ========================= */
 nav ul {
   list-style: none;
   display: flex;
@@ -51,7 +67,6 @@ nav ul {
   background: black;
   margin: 0;
 }
-
 
 nav ul li a {
   color: #fff;
@@ -81,17 +96,6 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-footer {
-  text-align: center;
-  background-color: #000000;
-  color: #fff;
-  padding: 1rem 0;
-  width: 100%;
-}
-
-header, main, footer {
-  margin-bottom: 20px;
-}
 
 /* =========================
    Body Styling
@@ -390,6 +394,7 @@ aside{
   100% { transform: rotate(360deg); }
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
   .special-h1{
     font-size: 25px; 
@@ -517,6 +522,7 @@ aside{
   transition: 0.5s;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
   .main-pic {
     width: 90%;
@@ -619,7 +625,11 @@ aside{
     max-width: 800px;
     margin: 20px auto;
   }
-  
+
+  .pages-container .myPages29 a {
+    color: blue;
+  }
+   
   .video iframe {
     width: 100%;
     height: auto;
@@ -714,7 +724,6 @@ aside{
     background-color: rgba(0,0,0,0.8);
   }
   
-  /* Pagination Dots */
   .dot-pages {
     cursor: pointer;
     margin-top: 20px;
@@ -731,7 +740,7 @@ aside{
     background-color: #717171;
   }
   
-  /* Responsive Adjustments */
+ /* Responsive Design */
   @media (max-width: 768px) {
     .stats-table {
       font-size: 10px;
@@ -808,6 +817,7 @@ aside{
     border: 1px solid goldenrod;
     border-radius: 5px;
     box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #000;
   }
   
   form input:focus, form textarea:focus {
@@ -883,6 +893,10 @@ aside{
     padding: 15px;
   }
 
+  .faq-page main a {
+    color: blue;
+  }
+
   .answer {
     display: none;
     background: rgba(255, 215, 0, 0.1);
@@ -905,7 +919,7 @@ aside{
   .question {
     cursor: pointer;
     font-weight: bold;
-    color: red;
+    color: wheat;
     padding: 10px;
     border-bottom: 1px solid goldenrod;
   }
