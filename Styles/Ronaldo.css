@@ -752,11 +752,11 @@ form button:active {
 }
 .faq-page {
   line-height: 1.5;
-  background-color: #000;
-  background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/Ronaldo%20statue.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    background-color: #000;
+    background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/fall-back-image-9-16-1080x1920.png');
+    background-size:100% 100%;
+    background-position:center;
+    background-attachment: fixed;
   width: 100%;
   min-height: 100%;
   scroll-behavior: smooth;
@@ -794,12 +794,6 @@ form button:active {
 }
 @media (max-width:768px) {
   .faq-page {
-    line-height: 1.5;
-    background-color: #000;
-    background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/Ronaldo%20statue.jpg');
-    background-size:100% 100%;
-    background-repeat: no-repeat;
-    background-position:inherit;
-    background-attachment: fixed;
+    
   }
 }
