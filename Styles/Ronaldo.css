@@ -754,7 +754,7 @@ form button:active {
   line-height: 1.5;
   background-color: #000;
   background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/Ronaldo%20statue.jpg');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   width: 100%;
