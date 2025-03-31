@@ -121,6 +121,11 @@ section {
   margin-bottom: 20px;
 }
 
+aside{
+  background-color: #000;
+  padding-left: 20px;
+}
+
 /* =========================
    Image Styling
    ========================= */
@@ -145,7 +150,7 @@ section {
 }
 
 .img-1:hover, .img-2:hover{
-  transform: scale(1.07);
+  transform: scale(1.02);
   box-shadow: gold 0px 0px 15px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
