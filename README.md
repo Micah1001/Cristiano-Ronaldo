@@ -43,7 +43,11 @@ The website follows web accessibility guidelines:
   - `Ronaldo-FAQ.html`: FAQ section.
   - `Ronaldo-Contact.html`: Feedback form.
 - **CSS Files**:
+<<<<<<< HEAD
   - `Styles/Ronaldo.css`: General styling for the website.
+=======
+  - `Styles/Ronaldo.css`: All styling for the website.
+>>>>>>> b979421c56caa1668757047216b7c60a527c2f61
 - **JavaScript Files**:
   - `Scripts/scripts.js`: Handles navigation and interactivity.
   - `Scripts/faq.js`: Loads FAQ data from an XML file.
