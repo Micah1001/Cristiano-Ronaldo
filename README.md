@@ -10,7 +10,7 @@ This project is a comprehensive website dedicated to the legendary footballer Cr
 - **Club Career**: Explore Ronaldo's journey through various clubs, including Sporting CP, Manchester United, Real Madrid, Juventus, and more.
 - **International Career**: Learn about his achievements and records with the Portugal national team.
 - **Professional Statistics**: View detailed stats, including appearances, goals, assists, and minutes played across different competitions.
-- **Interactive FAQ Section**: Get answers to frequently asked questions about Ronaldo's life and career.
+- **Interactive FAQ Section**: Get answers to frequently asked questions about Ronaldo's life, socials and career.
 - **Feedback Page**: A form for users to provide feedback or share their thoughts about the website.
 - **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices.
 - **Preloader Animation**: A loading spinner for a smooth user experience.
