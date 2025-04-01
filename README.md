@@ -22,17 +22,21 @@ This project is a comprehensive website dedicated to the legendary footballer Cr
 - **JavaScript**: For interactivity and dynamic content loading.
 - **XML**: Used for handling FAQ data.
 - **YAML**: Used for structuring Ronaldo's records and achievements.
-- **Markdown**: Used for explaining the project structure.
+- **Markdown**: Used for explaining the project structure and documentation.
+
 
 ## Accessibility
 The website follows web accessibility guidelines:
-- Proper `alt` attributes for images.
-- `aria-label` attributes for interactive elements.
+- Proper `alt` attributes for images to describe their content.
+- `aria-label` attributes for interactive elements like buttons and navigation links.
 - High contrast between text and background for readability.
-- Responsive design usage throughout the website.
+- Fully responsive design to ensure usability across all devices.
 
 ## SEO Best Practices
-- Meta tags for descriptions and keywords.
+- **Meta Tags**: Includes meta tags for descriptions, keywords, and author information.
+- **Open Graph Tags**: Provides rich previews for social media sharing.
+- **Structured Data**: Uses JSON-LD for structured data to improve search engine visibility.
+
 
 ## File Structure
 - **HTML Files**: 

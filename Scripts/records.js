@@ -7,7 +7,7 @@ fetch('Yml/records.yml')
     records.sections.forEach(section => {
         output += `<h3 class="${section.class || ''}">${section.title}</h3>`;
         if (section.image) {
-            output += `<br><img class="${section.image.class || ''}" src="${section.image.src}" alt="${section.image.alt}"><br><br>`;
+            output += `<br><img class="${section.image.class || ''}" src="${section.image.src}" alt="${section.image.alt}" loading="lazy"><br><br>`;
         }
         section.records.forEach(record => {
             output += `<p><b>${record.title}:</b> ${record.description}</p><br>`;
