@@ -10,7 +10,7 @@ window.addEventListener("load", function() {
     preloader.classList.add("fade-out"); 
     setTimeout(() => {
         preloader.style.display = "none";
-    }, 500);
+    }, 300);
 });
 
 let slideIndex = [1, 1, 1, 1, 
